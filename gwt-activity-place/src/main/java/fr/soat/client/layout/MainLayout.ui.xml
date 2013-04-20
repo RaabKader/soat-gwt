@@ -1,0 +1,25 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:n="urn:import:fr.soat.client.layout" >
+	<ui:style>
+
+	</ui:style>
+	<g:HTMLPanel>
+		<g:SimplePanel ui:field="navBar"></g:SimplePanel>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="span12">
+					<g:SimplePanel ui:field="centerContainer" styleName="hero-unit" />
+					<hr/>
+					<hr />
+					<hr />
+					<footer>
+						<p>© Soat 2013</p>
+					</footer>
+				</div>
+			</div>
+		</div>
+		
+	</g:HTMLPanel>	
+</ui:UiBinder> 
